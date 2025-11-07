@@ -69,9 +69,9 @@ export default function VoiceHub({ active, onToggle, onSpoke }) {
 
   return (
     <div className="relative w-full flex items-center justify-center">
-      {/* Holographic Spline aura */}
+      {/* Holographic Spline hero object */}
       <div className="absolute inset-0">
-        <Spline scene="https://prod.spline.design/4cHQr84zOGAHOehh/scene.splinecode" style={{ width: '100%', height: '100%' }} />
+        <Spline scene="https://prod.spline.design/sHDPSbszZja1qap3/scene.splinecode" style={{ width: '100%', height: '100%' }} />
       </div>
 
       {/* Glow gradient overlays that do not block pointer */}
@@ -84,7 +84,7 @@ export default function VoiceHub({ active, onToggle, onSpoke }) {
         onClick={onToggle}
         animate={controls}
         className="relative z-10 h-56 w-56 rounded-full flex items-center justify-center border border-cyan-400/40 bg-gradient-to-b from-white/10 to-white/5 backdrop-blur-xl shadow-[0_0_50px_rgba(0,255,255,0.35),inset_0_0_40px_rgba(0,255,255,0.12)] hover:shadow-[0_0_70px_rgba(0,255,255,0.6),inset_0_0_40px_rgba(0,255,255,0.2)] transition-shadow">
-        <div className="absolute inset-0 rounded-full animate-spin-slow bg-[conic-gradient(from_0deg,rgba(0,255,255,0.15),transparent_30%,rgba(0,153,255,0.25)_60%,transparent_85%,rgba(0,255,255,0.15))]" />
+        <div className="absolute inset-0 rounded-full animate-[spin_12s_linear_infinite] bg-[conic-gradient(from_0deg,rgba(0,255,255,0.15),transparent_30%,rgba(0,153,255,0.25)_60%,transparent_85%,rgba(0,255,255,0.15))]" />
         <div className="absolute inset-3 rounded-full border border-cyan-300/30" />
         <div className="absolute inset-6 rounded-full border border-cyan-300/20" />
         <div className="absolute inset-10 rounded-full border border-cyan-300/10" />
